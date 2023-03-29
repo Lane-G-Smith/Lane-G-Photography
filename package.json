@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "name": "cactus-mountain-studio",
+  "version": "1.0.0",
+  "description": "Website for business",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "watch": "tailwindcss -i src/input.css -o dist/output.css --watch",
+    "build": "tailwindcss -i src/input,css -o dist/output.css"
+  },
+  "author": "Lane G Smith",
+  "license": "ISC"
+}
