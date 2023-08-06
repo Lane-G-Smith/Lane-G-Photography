@@ -1,3 +1,0 @@
-// open and close modals
-
-// 

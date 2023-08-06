@@ -7,9 +7,12 @@
   "description": "Website for business",
   "main": "tailwind.config.js",
   "scripts": {
-    "watch": "tailwindcss -i src/input.css -o dist/output.css --watch",
+    "watch": "tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
     "build": "tailwindcss -i src/input,css -o dist/output.css"
   },
   "author": "Lane G Smith",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node": "^20.5.0"
+  }
 }
