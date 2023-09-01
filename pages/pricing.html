@@ -1,12 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    pricing page
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/output.css" />
+    <title>Lane G Photography</title>
+  </head>
+  <body class="">
+    <!-- full size navbar -->
+
+    <nav class="fixed w-full top-0 px-2 py-1 flex items-center justify-start">
+      <ul class="sm:flex hidden items-center w-full justify-center">
+        <li class="mx-6">
+          <a
+            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
+            href="../index.html"
+            >Home</a
+          >
+        </li >
+        <li class="mx-6">
+          <a
+            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
+            href="./portfolio.html"
+            >Portfolio</a
+          >
+        </li>
+        <li class="mx-6">
+          <a
+            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
+            href="./services.html"
+            >Services</a
+          >
+        </li>
+        <li class="mx-6">
+          <a
+            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
+            href="./pricing.html"
+            >Pricing</a
+          >
+        </li>
+        <li class="mx-6">
+          <a
+            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
+            href="#"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <!-- three lines button -->
+      <button class="navbar-burger sm:hidden items-center text-blue-600 p-3">
+        <svg
+          class="block h-6 w-6 fill-current"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <title>Mobile menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+      </button>
+    </nav>
+
+    <!--mobile navbar-->
+
+    <div class="navbar-menu relative hidden z-50">
+      <div class="navbar-backdrop fixed inset-0 bg-white"></div>
+      <nav
+        class="fixed top-0 left-0 bottom-0 flex flex-col w-full max-w-2xl py-6 px-6 bg-white border-r overflow-y-auto"
+      >
+        <div class="flex items-center mb-8">
+          <a class="mr-auto text-3xl font-bold leading-none" href="#">
+            <img
+              src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
+              class="h-10"
+            />
+          </a>
+          <!-- x to close the menu on mobile -->
+          <button class="navbar-close">
+            <svg
+              class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </button>
+        </div>
+        <ul>
+          <li class="mb-1">
+            <a
+              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li class="mb-1">
+            <a
+              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              href="#"
+              >Portfolio</a
+            >
+          </li>
+          <li class="mb-1">
+            <a
+              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              href="#"
+              >Services</a
+            >
+          </li>
+          <li class="mb-1">
+            <a
+              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              href="#"
+              >Pricing</a
+            >
+          </li>
+          <li class="mb-1">
+            <a
+              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              href="#"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>     
+    </div>
+
+    <!-- hero image and centered banner-->
+
+    <section class=" w-full h-screen bg-[url('https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-fjgxNqd/3/ca8c39a0/XL/LGP07683-3-XL.jpg')] bg-cover bg-bottom flex justify-center items-center">
+        
+        <!--top  -->
+        <div
+        class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-md sm:flex-row dark:border-gray-700  mx-2 my-3 max-w-6xl"
+        >
+        <img
+          class="w-full object-cover rounded-t-lg h-96 sm:p-5 sm:h-64 sm:w-64 sm:rounded-full"
+          src="https://images.pexels.com/photos/3759364/pexels-photo-3759364.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="A humanoid robot picture"
+        />
+        <div class="flex flex-col justify-between p-4 leading-normal">
+          <div class="flex flex-row justify-center mb-2">
+          <button class="sm:mr-5 hover:scale-110 duration-100 hover:duration-100 px-2 py-1 font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus mx-2">
+            <h2 class="font-bold text-xl text-white">
+              <a class="cursor-pointer" href="https://github.com/Lane-G-Smith/Discord-Bot-Job-Interview-Code-Buddy">Contact Me</a>
+            </h2>
+          </button>
+          </div>
+          <h5
+            class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+          >
+            Code-Buddy
+          </h5>
+          <p class="mb-3 font-semibold text-xl text-gray-900">
+            Every photoshoot is entirely unique, and often my pricing structure will reflect that fact. I offer a variety of pre-built packages but will gladly work with you to tailor your photoshoot to meet your specific needs. If you have any questions or concerns about pricing, deposits, or payment plans, feel free to reach out to me directly. I feel confident that we can work together to come up with a plan that suits your needs and circumstances.
+          </p>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer -->
+
+    <footer class="absolute bottom-0 w-full">
+            <p class="my-2 text-lg text-center font-bold text-white">
+              <span>Web Design By Lane Smith 2023</span>
+            </p>
+
+    </footer>
+    <script src="./scripts/burger.js"></script>
+  </body>
 </html>
