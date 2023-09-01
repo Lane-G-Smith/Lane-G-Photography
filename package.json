@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "node": "^20.5.0",
     "tailwindcss": "^3.2.7"
   },
   "name": "cactus-mountain-studio",
@@ -13,7 +14,5 @@
   "author": "Lane G Smith",
   "license": "ISC",
   "dependencies": {
-    "node": "^20.5.0",
-    "express": "^4.18.2"
   }
 }
