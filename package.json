@@ -8,7 +8,7 @@
   "main": "tailwind.config.js",
   "scripts": {
     "watch": "tailwindcss -i ./styles/input.css -o ./styles/output.css --watch",
-    "build": "tailwindcss -i ./styles/input.css -o ./styles/output.css"
+    "build": "CI=false && tailwindcss -i ./styles/input.css -o ./styles/output.css"
   },
   "author": "Lane G Smith",
   "license": "ISC",
