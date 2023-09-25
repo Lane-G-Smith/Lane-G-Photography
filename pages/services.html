@@ -11,124 +11,133 @@
     />
     <title>Services</title>
   </head>
-  <body>
+  <body class="">
+
+  <!-- background image -->
+
+  <div
+    class="-z-10 top-0 fixed w-full h-screen bg-[url('https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-fjgxNqd/3/ca8c39a0/XL/LGP07683-3-XL.jpg')] bg-cover bg-bottom"
+    >
+  </div>
+
     <!-- full size navbar -->
 
-    <nav class="absolute w-full top-0 px-2 py-1 flex items-center justify-start">
+    <nav class="z-50 fixed w-full top-0 px-2 py-1 flex items-center bg-kelp-950">
       <ul class="sm:flex hidden items-center w-full justify-center">
         <li class="mx-6">
-          <a
-            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
+            <a
+            class="block p-3 text-md  text-rust-50 hover:text-rust-500 hover:scale-125 transition"
             href="../index.html"
             >Home</a
           >
-        </li>
+        </li >
         <li class="mx-6">
           <a
-            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
+            class="block p-3 text-md text-rust-50 hover:text-rust-500 hover:scale-125 transition"
             href="./portfolio.html"
             >Portfolio</a
           >
         </li>
         <li class="mx-6">
           <a
-            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
+             class="block p-3 text-md text-rust-50 hover:text-rust-500 hover:scale-125 transition"
             href="./services.html"
             >Services</a
           >
         </li>
         <li class="mx-6">
           <a
-            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
-            href="./pages/pricing.html"
+            class="block p-3 text-md text-rust-50 hover:text-rust-500 hover:scale-125 transition"
+            href="./pricing.html"
             >Pricing</a
           >
         </li>
         <li class="mx-6">
-          <a
-            class="block p-3 text-md font-semibold text-gray-400 hover:text-black hover:scale-125 transition"
-            href="#"
+            <a
+            class="block p-3 text-md text-rust-50 hover:text-rust-500 hover:scale-125 transition"
+            href="https://www.honeybook.com/widget/lane_g_photography_183994/cf_id/6441b6b48529021641851883"
+            target="_blank"
             >Contact</a
-          >
+            >
         </li>
       </ul>
-      
-      <!--mobile navbar-->
 
-      <!-- three lines button -->
+        <!-- three lines button -->
 
-      <button class="mt-8 absolute navbar-burger sm:hidden items-center text-blue-600 p-3">
+      <button class="navbar-burger sm:hidden items-center text-rust-700 p-3 mt-1">
         <svg
           class="block h-6 w-6 fill-current"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
-        >
-          <title>Mobile menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          >
+        <title>Mobile menu</title>
+        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
         </svg>
       </button>
     </nav>
-    <div class="navbar-menu relative hidden z-50">
-      <div class="navbar-backdrop fixed inset-0 bg-white"></div>
-      <nav
-        class="fixed top-0 left-0 bottom-0 flex flex-col w-full max-w-2xl py-6 px-6 bg-white border-r overflow-y-auto"
-      >
-        <div class="flex items-center mb-8">
+      
+    <!--mobile navbar-->
 
-          <!-- x to close the menu on mobile -->
-          
-          <button class="navbar-close">
-            <svg
-              class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
+    <div class="navbar-menu relative hidden z-50">
+      <div class="navbar-backdrop fixed inset-0 bg-kelp-950">
+      </div>
+        <nav
+        class="fixed top-0 left-0 bottom-0 flex flex-col w-full max-w-2xl py-6 px-6 bg-kelp-950 border-r overflow-y-auto"
+        >
+        
+           <!-- x to close the menu on mobile -->
+
+          <div class="flex items-center mb-8">
+
+            <button class="navbar-close">
+              <svg
+                class="h-6 w-6 text-white cursor-pointer hover:text-rust-500"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
                 stroke-width="2"
                 d="M6 18L18 6M6 6l12 12"
               ></path>
-            </svg>
-          </button>
-
-
-
+              </svg>
+            </button>
         </div>
         <ul>
-          <li class="mb-1">
-            <a
-              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+            <li class="mb-1">
+              <a
+              class="block p-4 text-sm font-semibold text-rust-50 hover:bg-kelp-950 hover:text-rust-500 rounded"
               href="../index.html"
               >Home</a
             >
+            </li>
+            <li class="mb-1">
+              <a
+                class="block p-4 text-sm font-semibold text-rust-50 hover:bg-kelp-950 hover:text-rust-500 rounded"
+                href="portfolio.html"
+                >Portfolio</a
+              >
           </li>
           <li class="mb-1">
             <a
-              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
-              href="portfolio.html"
-              >Portfolio</a
-            >
-          </li>
-          <li class="mb-1">
-            <a
-              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              class="block p-4 text-sm font-semibold text-rust-50 hover:bg-kelp-950 hover:text-rust-500 rounded"
               href="./services.html"
               >Services</a
             >
           </li>
           <li class="mb-1">
             <a
-              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              class="block p-4 text-sm font-semibold text-rust-50 hover:bg-kelp-950 hover:text-rust-500 rounded"
               href="#"
               >Pricing</a
             >
           </li>
           <li class="mb-1">
             <a
-              class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+              class="block p-4 text-sm font-semibold text-rust-50 hover:bg-kelp-950 hover:text-rust-500 rounded"
               href="#"
               >Contact</a
             >
@@ -136,614 +145,297 @@
         </ul>
       </nav>
     </div>
+        
+<!-- pricing and payment window -->
 
-    <!-- hero area -->
+  <section class="m-2 sm:m-3 md:m-6 lg:m-16 fadeInUp-animation transition-opacity ease-in">
 
-    <div
-      class="w-full h-screen bg-[url('https://photos.smugmug.com/External-Website-Photos/n-MK8QBN/Github/i-fjgxNqd/3/ca8c39a0/XL/LGP07683-3-XL.jpg')] bg-cover bg-bottom flex justify-center items-center"
-    >
-      <!-- price card -->
-
-      <div class=" bg-white flex flex-col max-w-6xl rounded-lg bg-opacity-0 sm:bg-opacity-70 mt-28">
-        <div class="flex flex-col justify-between p-4 leading-normal">
-          <h5
-            class="text-center mb-2 text-2xl font-bold tracking-tight text-black"
-          >
-            PRICING
-          </h5>
-          <p class="mb-3 font-semibold text-xl text-gray-900">
-            Every photoshoot is entirely unique, which is often reflected in my pricing. I offer a variety of pre-built packages but
-            will gladly work with you to tailor your photoshoot to meet your
-            specific needs. Generally, additional hours are less expensive than the first hour, and the third less expensive than the second and so on. If you have any questions or concerns about pricing, don't hesitate to reach out.
-          </p>
-          <h5
-          class="my-8 text-center mb-2 text-2xl font-bold tracking-tight text-black"
+    <div class="mx-auto bg-kelp-950 bg-opacity-75 flex flex-col max-w-6xl rounded-lg my-28">
+      <div class="flex flex-col justify-between p-4 leading-normal">
+        <h5
+          class="text-center mb-2 text-2xl font-bold tracking-tight text-rust-500"
         >
-          PAYMENT
+          PRICING
         </h5>
-        <p class="mb-3 font-semibold text-xl text-gray-900">
-          I require a 50% non-refundable deposit in order for you to book your shoot. Once I receive the deposit, your date is saved and your shoot is locked in. If you would like to set up a payment plan, with any number of payments over time I can do that, just know that you will not receive your photos until payment is made in full. If you have any questions at all, feel free to reach out to me directly. I take cash, Venmo, all major credit cards, or ACH transfers.
+        <p class="mb-3 font-semibold text-xl text-white">
+          Every photoshoot is entirely unique, which is often reflected in my pricing. I offer a variety of pre-built packages but
+          will gladly work with you to tailor your photoshoot to meet your
+          specific needs. Generally, additional hours are less expensive than the first hour, and the third less expensive than the second and so on. If you have any questions or concerns about pricing, don't hesitate to reach out.
         </p>
-          <div class="flex flex-row justify-center my-auto">
-            <button
-              class="hover:scale-110 duration-100 hover:duration-100 px-2 py-1 font-medium text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus mx-2"
-            >
-              <h2 class="font-bold text-xl text-white">
-                <a
-                  class="cursor-pointer"
-                  href="https://github.com/Lane-G-Smith/Discord-Bot-Job-Interview-Code-Buddy"
-                  >Contact Me</a
-                >
-              </h2>
-            </button>
-          </div>
+        <h5
+        class="my-8 text-center mb-2 text-2xl font-bold tracking-tight text-rust-500"
+      >
+        PAYMENT
+      </h5>
+      <p class="mb-3 font-semibold text-xl text-white">
+        I require a 50% non-refundable deposit in order for you to book your shoot. Once I receive the deposit, your date is saved and your shoot is locked in. If you would like to set up a payment plan, with any number of payments over time I can do that, just know that you will not receive your photos until payment is made in full. If you have any questions at all, feel free to reach out to me directly. I take cash, Venmo, all major credit cards, or ACH transfers.
+      </p>
+        <div class="flex flex-row justify-center my-auto">
+          <button
+            class="hover:scale-110 duration-100 hover:duration-100 px-2 py-1 font-medium text-kelp-950 rounded-lg focus:ring-4 focus:outline-none focus:ring-rust-300 bg-kelp-50 hover:bg-rust-500 shadow-md shadow-slate-400 dark:shadow-zinc-900 hover:focus mx-2"
+          >
+            <h2 class="font-bold text-xl">
+              <a
+                class="cursor-pointer"
+                href="https://github.com/Lane-G-Smith/Discord-Bot-Job-Interview-Code-Buddy"
+                >Contact Me</a
+              >
+            </h2>
+          </button>
         </div>
       </div>
     </div>
+  </section>
+    
+    <!-- pricing cards -->
 
-    <!-- review -->
+  <section class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-2 lg:gap-4 xl:gap-8 h-auto mx-2 sm:mx-4 lg:mx-8 fadeInUp-animation transition-opacity ease-in">
 
+    <!-- engagement -->
 
-  <div class="italic flex flex-col sm:text-center max-w-6xl m-auto px-3 py-6">
-      <h1 class="text-2xl sm:align-middle">
-        These look so beautiful!!! Thank you for being our photographer while we
-        were out there. We’ll definitely have these photos forever and Im so
-        happy with them!!
-      </h1>
-      <h2 class="m-auto text-2xl">Diana S</h2>
-    </div>
-        
-      <!-- pricing cards -->
-      <div class="bg-cover bg-no-repeat w-screen h-auto drop-shadow-xl">
-        <div class="pt-5 pb-5 h-auto w-screen flex justify-around flex-wrap">
-          
-          <!-- engagement -->
-
-          <div
-            class="hover:scale-105 transition duration-75 ease-in-out bg-slate-800 max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">Engagement</div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
+    <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+      <img
+          class="object-cover w-full h-1/2"
+          src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+          alt=""
+          />
+          <div class="px-6 py-4">
+            <div class="text-rust-500 font-bold text-2xl mb-2">Engagement</div>
+            <p class="pb-2 text-amber-50 text-base max-h-max">
+              Capture the magical moments of your love story with our engagement photography service in beautiful Sedona, Arizona. Our professional, intimate photos will let you and your future spouse endlessly relive the joy and excitement of this special time.
+            </p>
           </div>
+    </div>
 
           <!-- Elopement -->
 
-          <div
-            class="hover:scale-110 transition duration-50 ease-in-out bg-slate-800 max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">Elopement</div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil fds fsd fsd fds fsd.fhfdhjifd
-                fd hfd fdh ufd shf dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
+    <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+        <img
+          class="object-cover w-full h-1/2"
+          src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+          alt=""
+          />
+          <div class="px-6 py-4">
+            <div class="text-rust-500 font-bold text-2xl mb-2">Elopement</div>
+            <p class="pb-2 text-amber-50 text-base max-h-max">
+              Capture the intimate and most enchanting moments of your elopement with our tailor-made photography service. Embrace the ethereal beauty of Sedona, Arizona, as we immortalize your unique love story against its stunning backdrop. 
+            </p>
           </div>
+      </div>
 
-          <!-- Maternity & Newborn -->
-
-          <div
-            class="hover:scale-110 transition duration-50 ease-in-out bg-slate-800 max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                Maternity & Newborn
+      <!-- Maternity & Newborn -->
+      
+      <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+        <img
+            class="object-cover w-full h-1/2"
+            src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+             alt=""
+             />
+             <div class="px-6 py-4">
+              <div class="text-rust-500 font-bold text-2xl mb-2">Maternity & Newborn</div>
+              <p class="pb-2 text-amber-50 text-base max-h-max">
+                Capture the beauty and emotion of your journey into motherhood with our elegantly styled maternity photoshoots. Those precious early days of parenthood can be documented forever with our gentle and natural newborn photography, creating keepsake images to cherish.
+               </p>
               </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
           </div>
+        </div>          
 
           <!-- Family -->
 
-          <div
-            class="hover:scale-105 transition duration-50 ease-in-out bg-slate-800 max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
+        <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
             <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">Family</div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              \
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
+             class="object-cover w-full h-1/2"
+            src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+             alt=""
+              />
+              <div class="px-6 py-4">
+              <div class="text-rust-500 font-bold text-2xl mb-2">Family</div>
+              <p class="pb-2 text-amber-50 text-base max-h-max">
+                Capture unforgettable moments with our custom family photography sessions in the heart of beautiful Sedona, Arizona. Allow us to bring your family's story to life, preserving cherished memories with photographs that reflect the warmth, love, and connection of your unique family dynamic.
+                </p>
+              </div>
           </div>
         </div>
-      </div>
+          <!-- styled portraits -->
+          <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+            <img
+              class="object-cover w-full h-1/2"
+              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+              alt=""
+              />
+              <div class="px-6 py-4">
+                <div class="text-rust-500 font-bold text-2xl mb-2">Styled Portraits</div>
+                <p class="pb-2 text-amber-50 text-base max-h-max">
+                  Experience the raw beauty of Sedona, Arizona like never before with our outdoor styled portrait photography. We skillfully capture the magic of natural lighting and the breathtaking landscapes to create portraits that are a stunning blend of artistry and emotion.
+                </p>
+              </div>
+          </div>
+        </div>
+                  <!-- engagements -->
+                  <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+                    <img
+                      class="object-cover w-full h-1/2"
+                      src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+                      alt=""
+                      />
+                      <div class="px-6 py-4">
+                        <div class="text-rust-500 font-bold text-2xl mb-2">Engagement</div>
+                        <p class="pb-2 text-amber-50 text-base max-h-max">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                      </div>
+                  </div>
+                </div>
+                          <!-- events & corporate retreats -->
+          <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+            <img
+              class="object-cover w-full h-1/2"
+              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+              alt=""
+              />
+              <div class="px-6 py-4">
+                <div class="text-rust-500 font-bold text-2xl mb-2">Events & Corporate Retreats</div>
+                <p class="pb-2 text-amber-50 text-base max-h-max">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+          </div>
+        </div>
+                  <!-- Album covers and branding -->
+                  <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+                    <img
+                      class="object-cover w-full h-1/2"
+                      src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+                      alt=""
+                      />
+                      <div class="px-6 py-4">
+                        <div class="text-rust-500 font-bold text-2xl mb-2">Engagement</div>
+                        <p class="pb-2 text-amber-50 text-base max-h-max">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                      </div>
+                  </div>
+                </div>
+                          <!-- 2nd shooter services -->
+          <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+            <img
+              class="object-cover w-full h-1/2"
+              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+              alt=""
+              />
+              <div class="px-6 py-4">
+                <div class="text-rust-500 font-bold text-2xl mb-2">Second Shooter</div>
+                <p class="pb-2 text-amber-50 text-base max-h-max">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+          </div>
+        </div>
+                  <!-- web and advertising content -->
+                  <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+                    <img
+                      class="object-cover w-full h-1/2"
+                      src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+                      alt=""
+                      />
+                      <div class="px-6 py-4">
+                        <div class="text-rust-500 font-bold text-2xl mb-2">Web & Advertising</div>
+                        <p class="pb-2 text-amber-50 text-base max-h-max">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                      </div>
+                  </div>
+                </div>
+                          <!-- Boudoir -->
+          <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+            <img
+              class="object-cover w-full h-1/2"
+              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+              alt=""
+              />
+              <div class="px-6 py-4">
+                <div class="text-rust-500 font-bold text-2xl mb-2">Boudoir</div>
+                <p class="pb-2 text-amber-50 text-base max-h-max">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+          </div>
+        </div>
+                  <!-- Glow Paint -->
+                  <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+                    <img
+                      class="object-cover w-full h-1/2"
+                      src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+                      alt=""
+                      />
+                      <div class="px-6 py-4">
+                        <div class="text-rust-500 font-bold text-2xl mb-2">Glow Paint</div>
+                        <p class="pb-2 text-amber-50 text-base max-h-max">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                      </div>
+                  </div>
+                </div>
+                                <!-- Milky Way -->
+                                <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+                                  <img
+                                    class="object-cover w-full h-1/2"
+                                    src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+                                    alt=""
+                                    />
+                                    <div class="px-6 py-4">
+                                      <div class="text-rust-500 font-bold text-2xl mb-2">Milky Way</div>
+                                      <p class="pb-2 text-amber-50 text-base max-h-max">
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                      </p>
+                                    </div>
+                                </div>
+                              </div>
+                                              <!-- AI Enhanced -->
+                  <div class="bg-kelp-950 bg-opacity-75 rounded-2xl overflow-hidden shadow-xl">
+                    <img
+                      class="object-cover w-full h-1/2"
+                      src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
+                      alt=""
+                      />
+                      <div class="px-6 py-4">
+                        <div class="text-rust-500 font-bold text-2xl mb-2">AI Enhanced</div>
+                        <p class="pb-2 text-amber-50 text-base max-h-max">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        </p>
+                      </div>
+                  </div>
+                </div>
+  </section>
 
-    <!-- background image and review -->
+    
 
-    <div class="italic flex flex-col sm:text-center max-w-6xl m-auto px-3 py-6">
-      <h1 class="text-2xl sm:align-middle">
+
+    <script src="../scripts/burger.js"></script>
+    <script src="../scripts/darkmode.js"></script>
+    <script src="../scripts/main.js"></script>
+  </body>
+</html>
+
+
+    <!-- review --
+        These look so beautiful!!! Thank you for being our photographer while we
+        were out there. We'll definitely have these photos forever and Im so
+        happy with them!! -->    
+        
+    <!--review 
+
+    Unbelievably professional; Lane really let's his eye for angle and color
+        do the talking. Captured moments and sides of myself I didn't know
+        existed! Would recommend to anyone looking for a solo, couple, or group
+        shoot.-->
+        
+        
+    <!-- review
+
         I cannot recommend Lane enough! Not only is he an excellent
         photographer, with a good eye for lighting, landscape, detail…but he’s a
         natural at guiding you through the whole process, making you feel
         comfortable and at ease. Lane is patient and kind, and has an innate
         talent for capturing the moment. You would be doing yourself a favor to
-        hire Lane and allow him to work his magic behind the lens!
-      </h1>
-      <h2 class="m-auto text-2xl">Laura D</h2>
-    </div>
-
-    <!-- Traditional Photography packages -->
-    <section class="bg-gradient-to-b from-dgreen to-black snap-start h-screen">
-      <div class="flex">
-        <div
-          class="px-60 bg-no-repeat w-screen h-auto bg-cover bg-top bg-scroll"
-        >
-          <h1 class="p-4 text-center text-6xl font-bold text-white">
-            Traditional Portrait Photography
-          </h1>
-          <p class="py-4 text-3xl font-bold text-white">
-            what to expect when doing a sedona photoshoot with bla bla. I shoot
-            in bla bla locations, and I even know a few spots where people are
-            less likely to be. You should choose us because nobody knows what
-            they are doiing and at least I am honest about it.
-          </p>
-        </div>
-      </div>
-
-      <!-- pricing cards -->
-      <div class="bg-cover bg-no-repeat w-screen h-auto drop-shadow-xl">
-        <div class="pt-5 pb-5 h-auto w-screen flex justify-around">
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                Styled Portraits 2HR
-              </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                Engagement Package
-              </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                Engagement Package
-              </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                Engagement Package
-              </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- background image and review -->
-    <section
-      class="px-48 py-24 text-5xl text-black font-bold w-screen h-3/4 bg-bottom bg-fixed bg-cover bg-no-repeat"
-      style="
-        background-image: url(https://photos.smugmug.com/photos/i-fjgxNqd/0/0b99b86b/XL/i-fjgxNqd-XL.jpg);
-      "
-    >
-      <h1 class="">
-        Unbelievably professional; Lane really let's his eye for angle and color
-        do the talking. Captured moments and sides of myself I didn't know
-        existed! Would recommend to anyone looking for a solo, couple, or group
-        shoot.
-      </h1>
-      <h2 class="p-4">Alexander S</h2>
-    </section>
-
-    <!-- Commercial Photography -->
-    <section class="bg-gradient-to-b from-dgreen to-black snap-start h-screen">
-      <div class="flex">
-        <div
-          class="px-60 bg-no-repeat w-screen h-auto bg-cover bg-top bg-scroll"
-        >
-          <h1 class="p-4 text-center text-6xl font-bold text-white">
-            Commercial Photography
-          </h1>
-          <p class="py-4 text-3xl font-bold text-white">
-            what to expect when doing a sedona photoshoot with bla bla. I shoot
-            in bla bla locations, and I even know a few spots where people are
-            less likely to be. You should choose us because nobody knows what
-            they are doiing and at least I am honest about it.
-          </p>
-        </div>
-      </div>
-
-      <!-- pricing cards -->
-      <div
-        class="bg-cover bg-no-repeat w-screen h-auto drop-shadow-xl pt-5 pb-5 flex justify-around"
-      >
-        <div class="pt-5 pb-5 h-auto w-screen flex justify-around">
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                Events & Corporate retreats
-              </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                Album Covers & Branding
-              </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                2nd shooter for hire
-              </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                Web & Advertising Content
-              </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- background image and review -->
-    <section
-      class="px-48 py-24 text-5xl text-black font-bold w-screen h-3/4 bg-bottom bg-fixed bg-cover bg-no-repeat"
-      style="
-        background-image: url(https://photos.smugmug.com/photos/i-fjgxNqd/0/0b99b86b/XL/i-fjgxNqd-XL.jpg);
-      "
-    >
-      <h1 class="">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-        nesciunt, veritatis sed veniam aspernatur fugit harum sit consectetur
-        quod tempora consequatur numquam aliquam magnam dicta quisquam.
-        Inventore libero fuga nisi, soluta aperiam exercitationem explicabo!
-        Aperiam eos repellat consectetur corporis vero repudiandae alias impedit
-        nostrum autem! Incidunt ea rerum quia quo!
-      </h1>
-      <h2 class="p-4">john doe</h2>
-    </section>
-
-    <!-- Not So Traditional Photography Packages -->
-    <section class="bg-gradient-to-b from-dgreen to-black snap-start h-screen">
-      <div class="flex">
-        <div
-          class="px-60 bg-no-repeat w-screen h-auto bg-cover bg-top bg-scroll"
-        >
-          <h1 class="p-4 text-center text-6xl font-bold text-white">
-            Commercial Photography
-          </h1>
-          <p class="py-4 text-3xl font-bold text-white">
-            what to expect when doing a sedona photoshoot with bla bla. I shoot
-            in bla bla locations, and I even know a few spots where people are
-            less likely to be. You should choose us because nobody knows what
-            they are doiing and at least I am honest about it.
-          </p>
-        </div>
-      </div>
-      <!-- pricing cards -->
-      <div class="w-screen h-auto drop-shadow-xl">
-        <div class="pt-5 pb-5 h-auto w-screen flex justify-around">
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-M88fR4R/0/30c9d7b7/X2/i-M88fR4R-X2.jpg"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">Boudoir</div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">Glow Paint</div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">Milky Way</div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-          <div
-            class="hover:scale-110 duration-300 bg-black max-w-sm rounded-2xl overflow-hidden shadow-xl"
-          >
-            <img
-              class="w-full"
-              src="https://photos.smugmug.com/photos/i-KSRmzSX/0/b1faad46/S/i-KSRmzSX-S.png"
-              alt="Sunset in the mountains"
-            />
-            <div class="px-6 py-4">
-              <div class="text-white font-bold text-2xl mb-2">
-                AI Enhanced (experimental)
-              </div>
-              <p class="pb-2 text-white text-base max-h-max">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.fhfdhjifd fd hfd fdh ufd shf
-                dfdh hufd hfd
-              </p>
-              <a
-                href="#"
-                class="p-3 text-white bg-blue-700 font-medium rounded-lg text-sm text-center"
-                >Learn More</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- background image and review -->
-    <section
-      class="px-48 py-24 text-5xl text-black font-bold w-screen h-3/4 bg-bottom bg-fixed bg-cover bg-no-repeat"
-      style="
-        background-image: url(https://photos.smugmug.com/photos/i-fjgxNqd/0/0b99b86b/XL/i-fjgxNqd-XL.jpg);
-      "
-    >
-      <h1 class="">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus
-        nesciunt, veritatis sed veniam aspernatur fugit harum sit consectetur
-        quod tempora consequatur numquam aliquam magnam dicta quisquam.
-        Inventore libero fuga nisi, soluta aperiam exercitationem explicabo!
-        Aperiam eos repellat consectetur corporis vero repudiandae alias impedit
-        nostrum autem! Incidunt ea rerum quia quo!
-      </h1>
-      <h2 class="p-4">john doe</h2>
-    </section>
-    <script src="../scripts/burger.js">
-
-    </script>
-  </body>
-  <html></html>
-</html>
+        hire Lane and allow him to work his magic behind the lens!-->
