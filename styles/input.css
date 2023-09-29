@@ -3,6 +3,20 @@
 @tailwind utilities;
 
 
+/* remove scrollbar */
+/* chrome */
+*::-webkit-scrollbar{
+  display: none;
+}
+/* IE, Edge*/
+body {
+  -ms-overflow-style: none;
+}
+/* firefox */
+html {
+  scrollbar-width: none;
+}
+
 /* portfolio image fade on load */
 
 @keyframes fadeInUp {
